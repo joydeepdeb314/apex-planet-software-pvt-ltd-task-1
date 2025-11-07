@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Webpage</title>
+  <style>
+    body {font-family: Arial, sans-serif; background:#f0f8ff; color:#333; margin:0; padding:0; line-height:1.6;}
+    header, footer {background:#0078d7; color:#fff; text-align:center; padding:15px;}
+    section {background:#fff; margin:15px; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
+    a {color:#0078d7; text-decoration:none; font-weight:bold;} a:hover{text-decoration:underline;}
+    button {background:#0078d7; color:#fff; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;}
+    button:hover {background:#005fa3;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple webpage created using HTML, CSS, and JavaScript.</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>This page helps beginners understand the basic structure of a webpage with headings, paragraphs, images, and links.</p>
+  </section>
+
+  <section>
+    <h2>Learn More</h2>
+    <p>Click below to explore more about HTML, CSS, and JavaScript:</p>
+    <a href="https://www.w3schools.com" target="_blank">1.W3Schools</a>
+    <a href=""f="https://www.codechef.com/practice#algorithms" target= "blank">2.codechef </a>
+  </section>
+
+  <section>
+    <h2>Try It Yourself</h2>
+    <button onclick="alert('Hello! Welcome to my page !')">Click Me!</button>
+  </section>
+
+  <footer>
+    <p>Created by Joydeep deb © 2025</p>
+  </footer>
+
+</body>
+</html>
